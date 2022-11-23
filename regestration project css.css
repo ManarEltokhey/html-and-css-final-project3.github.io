@@ -1,0 +1,40 @@
+.required::after{
+    content: " *";
+    color: rgb(0, 0, 0);
+}
+input:invalid{
+    border: black solid;
+    
+}
+input:valid{
+    border: white;
+}
+input:valid ~ .not{
+    display: none;
+  }
+  input:invalid ~ .valid{
+    display: none;
+  }
+.colorstyle{
+    background-image: linear-gradient(to right,#b7a4b7,#452c63);
+}
+button{
+    background-image: linear-gradient(to right,#b7a4b7,#452c63);
+    color: azure;
+    font-style: bold;
+    cursor: pointer;
+   text-align: center;
+    border: none;
+    font-size: large;
+    text-decoration: none;
+display: inline-block;
+    position: relative;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+#signup1{
+    text-align: center;
+}

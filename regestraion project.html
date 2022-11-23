@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head id="headid">
+<title>Registration form</title>
+<link rel="stylesheet" href="regestration project css.css">
+<meta charset="UTF-8">
+     <meta name="description"content="Registration form ">
+    </head>
+    <body class="colorstyle" >
+<form action="thankyouproject.html">
+   <div style="margin-left: 2px;">
+    <label style="font-size: 20px;"><b>Name</b></label>
+    <br>
+    <br>
+    <label class="required"style="width:500px;">First Name</label>
+    <input type="text" name="First Name"  required style="width:300px;">
+<span style="margin-right: 20px;" class="not">Not valid</span>
+<span  style="margin-right: 20px;"class="valid">valid</span>
+<label class="required">Middle Name</label>
+<input type="text" name="Middle Name" required style="width:300px;">
+<span  style="margin-right: 20px;"class="not">Not valid</span>
+ <span  style="margin-right: 20px;"class="valid">valid</span>
+<label class="required">Last Name</label>
+<input type="text" name="Last Name" required style="width:300px;">
+<span style="margin-right: 20px;" class="not">Not valid</span>
+ <span style="margin-right: 20px;" class="valid">valid</span>
+   </div>
+<br>
+<br>
+
+   <div>
+    <label class="required"style="width:500px;font-size: 20px;"><b>Email</b></label>
+     <input type="email" name="Email" required >
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+</div>
+<br>
+<br>
+
+
+<div>
+    <label class="required" style="width:500px;font-size: 20px;"><b>Password</b></label>
+    <input type="password" name="Password" id="pass" required>
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+</div>
+<br>
+<br>
+
+<div>
+    <label class="required" style="width:500px;font-size: 20px;"><b>Repeat password </b></label>
+    <input type="password" name="repassword" required >
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+</div>
+<br>
+<br>
+
+
+<label style="width:500px;font-size: 20px;"><b>BirthDate</b></label>
+    <input type="date" name="BirthDate" >
+    <br>
+    <br>
+    
+    <label style="font-size: 20px;"><b>Gender</b></label>
+    <br>
+    <br>
+    <input type="radio" name="g1" value="m">Male
+    <input type="radio" name="g1" value="f">Female
+<br>
+<br>
+
+    <div>
+        <label  style="font-size: 20px;"><b>Address</b</label>
+            <br>
+            <br>
+           <div>
+            <input type="text" name="address" placeholder="Street Address"style="width:500px;padding:10px;">
+           </div>
+           <br>
+           <div>
+           <span>
+            <input type="text" name="city" placeholder="City"style="width:500px;padding:10px;">
+           </span>
+           <span>
+            <input type="text" name="Region" placeholder="Region"style="width:500px;padding:10px;">
+           </span>
+        </div>
+           <br>
+           <div>
+           <span>  
+            <input type="text" name="code" placeholder="postal code"style="width:500px;padding:10px;">
+           </span>
+           <label style="width:500px;padding:10px;font-size: 20px;">Choose your Country</label>
+           <select name="countries" style="width: 200px;height:40px;">
+           <option value="a">Albania</option>
+           <option value="m">Brazil</option>
+           <option value="a2">Croatie</option>
+           <option value="c">Danemark</option>
+           <option value="e">Egypt</option>
+           </select>
+                  </span>
+                </div>
+           <br>
+           
+            <br>
+           
+
+            <label>upload your picture</label>
+    <input type="file" name="pic" >
+    <br>
+    <br>
+    <label  style="width:500px;font-size: 20px;">Choose your faculty</label>
+    <select name="faculties">
+    <option value="a">Faculty of Agriculture</option>
+    <option value="m">Faculty of Medicine</option>
+    <option value="a2">Faculty of Arts</option>
+    <option value="c">Faculty of Commerce</option>
+    <option value="e">Faculty of Engineering</option>
+    </select>
+    <br>
+    <br>
+    <label>Comments,Questions or suggestions</label>
+    <br>
+    <textarea cols="200"rows="10" name="comments"></textarea>
+    <br>
+    <br>
+    <div id="signup1">
+        <button type="submit" class="button button1" >Sign Up</button></div>
+</fieldset>
+</form>
+
+
+    </body>
+</html>
